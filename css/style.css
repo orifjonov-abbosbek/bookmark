@@ -360,6 +360,7 @@ body {
   letter-spacing: 0.25px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 /************ DOWNLOADS SECTION END  **************/
 
@@ -456,6 +457,7 @@ summary::marker {
   letter-spacing: 0.25px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 /************* AWARE SECTION START  ************/
@@ -526,6 +528,7 @@ form {
   text-align: center;
   letter-spacing: 0.25px;
   color: #ffffff;
+  cursor: pointer;
 }
 /************ AWARE SECTION END **************/
 
