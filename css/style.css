@@ -81,6 +81,12 @@ body {
   margin-left: 48px;
   border: none;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #ffffff;
 }
 
 /******************* HEADER SECTION END  *******************/
@@ -530,12 +536,11 @@ form {
   padding-top: 32px;
   padding-bottom: 37px;
 }
-.footer_wrapper{
+.footer_wrapper {
   display: flex;
-  justify-content: space-between
-  ;
+  justify-content: space-between;
 }
-.footer_right_side{
+.footer_right_side {
   display: flex;
   gap: 40px;
 }
