@@ -79,6 +79,7 @@ body {
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
   border-radius: 5px;
   margin-left: 48px;
+  border: none;
 }
 
 /******************* HEADER SECTION END  *******************/
@@ -495,7 +496,9 @@ form {
   border-radius: 5px;
   padding-left: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
   margin-right: 16px;
+  border: none;
 }
 ::placeholder {
   font-size: 14px;
@@ -519,11 +522,41 @@ form {
 }
 /************ AWARE SECTION END **************/
 
-
 /******************* FOOTER SECTION START ********/
 
+.site_footer {
+  background: #242a45;
+  padding-top: 32px;
+  padding-bottom: 37px;
+}
+.footer_wrapper{
+  display: flex;
+  justify-content: space-between
+  ;
+}
+.footer_right_side{
+  display: flex;
+  gap: 40px;
+}
 
+.footer_left_side {
+  display: flex;
+  width: 509px;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.footer_list {
+  display: flex;
+  width: 296px;
+  justify-content: space-between;
+}
 
-
+.footer_list_item_link {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
 /****************** FOOTER SECTION END  **********/
