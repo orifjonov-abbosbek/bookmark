@@ -51,6 +51,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 48px;
+  margin-bottom: 108px;
 }
 .navigation_side {
   display: flex;
@@ -79,3 +80,79 @@ body {
   border-radius: 5px;
   margin-left: 48px;
 }
+
+/******************* HEADER SECTION END  *******************/
+/****************   HERO SECTIONS START  *******************/
+
+.hero {
+  background-image: url(../images/hero_bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) calc(50% + 55px);
+  padding-bottom: 83px;
+  margin-bottom: 80px;
+}
+
+.hero_wrapper {
+  display: flex;
+}
+
+.hero_title {
+  width: 540px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+  color: #242a45;
+  margin-bottom: 24px;
+}
+.hero_desc {
+  width: 540px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 32px;
+}
+
+.hero_sec_btns {
+  display: flex;
+  width: 343px;
+  justify-content: space-between;
+}
+
+.hero_first_btn {
+  width: 166px;
+  height: 48px;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #fff;
+}
+
+.hero_second_btn {
+  width: 166px;
+  height: 48px;
+  background: #f7f7f7;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+/********************* HERO SECTION END  ************/
+/********************* FEATURES SECTION START  *****/
+
+
