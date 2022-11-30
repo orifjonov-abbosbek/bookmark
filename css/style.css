@@ -155,4 +155,202 @@ body {
 /********************* HERO SECTION END  ************/
 /********************* FEATURES SECTION START  *****/
 
+.features {
+  background-image: url(../images/features_bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 400px) calc(50% + 240px);
+  padding-bottom: 89px;
+  margin-bottom: 149px;
+}
 
+.features_top_title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #242a45;
+
+  margin-bottom: 16px;
+}
+
+.features_top_desc {
+  width: 540px;
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 28px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 72px;
+}
+
+.features-list {
+  display: flex;
+  width: 730px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #495dcf33;
+  margin-bottom: 72px;
+}
+
+.features_list_item_link {
+  display: inline-block;
+  padding: 25px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.533333px;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.features-list .features_list_item:hover {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-bottom: 5px solid #fa5959;
+}
+.features_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features_title {
+  width: 348px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+  color: #242a45;
+}
+.features_desc {
+  width: 445px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242a45;
+  text-align: left;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.features_btn {
+  width: 114px;
+  height: 48px;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/********************* FEATURES SECTION END  ****************/
+
+/********************* DOWNLOAD SECTION START  *************/
+.download {
+  margin-bottom: 149px;
+}
+
+.download_title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #242a45;
+  margin-bottom: 16px;
+}
+
+.download_desc {
+  width: 540px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  margin: 0 auto;
+  opacity: 0.5;
+  margin-bottom: 48px;
+}
+
+.download_wrapper {
+  display: flex;
+
+  justify-content: center;
+}
+
+.firefox {
+  margin-top: 40px;
+}
+
+.opera {
+  margin-top: 80px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  padding: 49px 24px 24px 24px;
+  background: #ffffff;
+  margin-right: 34px;
+  box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+  border-radius: 15px;
+}
+.card_img {
+  width: 102px;
+  height: 100px;
+  margin-bottom: 32px;
+}
+
+.card_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #242a45;
+  margin-bottom: 6px;
+}
+.version {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 32px;
+}
+
+.line {
+  width: 280px;
+  height: 4px;
+  border-bottom: 4px dotted #495dcf33;
+  margin-bottom: 34px;
+}
+.card_btn {
+  width: 232px;
+  height: 48px;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  border: none;
+}
+/************ DOWNLOADS SECTION END  **************/
